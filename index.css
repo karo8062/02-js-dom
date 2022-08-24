@@ -1,0 +1,42 @@
+img {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: 100%, 100%;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+.col {
+  border: 1px black solid;
+}
+
+footer {
+  text-align: center;
+  border: 1px black solid;
+}
+
+header {
+  border: 1px black solid;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin: 2rem;
+}
+
+article {
+  margin-inline: 10px;
+}
